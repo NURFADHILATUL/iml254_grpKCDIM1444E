@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOMEPAGE</title>
+<link rel="stylesheet" type="text/css" href="resource/css/style.css">
+<script src="http://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+
+<style>
+* {
+  margin: 0; 
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #FFFED3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  background: url("resource/image/strawberrychoc.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box.chocolate {
+  background: url("resource/image/strawberrychoc.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box.tea {
+  background: url("resource/image/tea.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box.coffee {
+  background: url("resource/image/coffee.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box.pastry {
+  background: url("resource/image/pastry.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box.cookies {
+  background: url("resource/image/butterscotchcookies.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box.cakes {
+  background: url("resource/image/tiramisu.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box.softserve {
+  background: url("resource/image/icecream.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: .5s;
+}
+
+.box h3 {
+  color: #0C1844;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  opacity: 0;
+  transition: bottom .5s, opacity .5s;
+}
+
+.box:hover {
+  width: 300px;
+  cursor: pointer;
+}
+
+.box:hover h3 {
+  opacity: 1;
+  bottom: 25px;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image : url("resource/image/background.jpg");
+}
+
+.parallax {
+    background-image: url('resource/image/logo.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 0;
+}
+
+#wrapper {
+   width: 930px;
+   height: 350px;
+   margin: 0 auto;
+}
+
+#home1 {
+   width: 400px;
+   height: 300px;
+   float: right:
+}
+
+#home2 {
+   width: 400px;
+   height: 300px;
+   float: right;
+}
+
+@media (max-width:767px) {
+   .home1 {
+     position: relative;
+     padding-bottom,: 56.25%; 
+     padding-top: 30px; 
+     height: 0;
+     overflow: hidden;
+  }
+
+   .home2 {
+     margin-left: 0;
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+
+<header>
+<hr>
+<nav>
+<div class="topnav">
+<img src="resource/image/logo1.jpg" alt="logo" width="150" height="150">
+  <a href="index.html" > HOME </a>
+  <a href="about_us.html"> ABOUT US </a>
+  <a href="location.html"> LOCATION</a>
+  <div class="dropdown">
+    <button class="dropbtn">FOODS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="pastry.html">Pastries</a>
+      <a href="cakes.html">Cakes</a>
+      <a href="softserve.html">Soft Serve</a> 
+      <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+      <div class="dropdown">
+        <button class="dropbtn">DRINKS 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="coffee.html">Coffee</a>
+          <a href="tea.html">Tea</a>
+          <a href="chocolate.html">Chocolate</a>
+        </div>
+       </div>
+  <a href="rewards.html"> REWARDS </a>
+  <a href="merchandise.html"> MERCHANDISE </a>
+  <a href="private_event.html"> PRIVATE EVENT</a>
+  <a href="faq.html"> FAQ </a>
+  <a href="join_us.html"> JOIN US </a>
+</div>
+</nav>
+</header>
+<div class="content">
+    <p class="title">🍁WELCOME TO OUI OUI CAFE🍁</p>
+
+    <div class="parallax"></div>
+    <p class="title">Your Daily Dose of Delight</p>
+<br><br>
+
+<div class="wrapper">
+  <div class="gallery">
+    <a href="chocolate.html"><div class="box chocolate"><h3>Choco drinks</h3></div></a>
+    <a href="tea.html"><div class="box tea"><h3>Tea</h3></div></a>
+    <a href="coffee.html"><div class="box coffee"><h3>Coffee</h3></div></a>
+    <a href="pastry.html"><div class="box pastry"><h3>Pastry</h3></div></a>
+    <a href="cookies.html"><div class="box cookies"><h3>Cookies</h3></div></a>
+    <a href="cakes.html"><div class="box cakes"><h3>Cakes</h3></div></a>
+    <a href="softserve.html"><div class="box softserve"><h3>Soft Serve</h3></div></a>
+  </div>
+</div>
+
+<br><br><br><br><br><br>
+
+<p class="title"> Tag us when you dine in at OUI OUI Cafe: Where Flavor Meets Joy!🍽️✨ </p>
+
+<center>
+<video width="40%" height="20%" autoplay muted loop>
+<source src="resource/video/cafe2.mp4" 
+type="video/mp4">
+</video>
+
+<video width="40%" height="20%" autoplay muted loop>
+<source src="resource/video/cafe3.mp4" 
+type="video/mp4">
+</video>
+
+<br>
+<center>
+<audio controls autoplay>
+<source src= "resource/audio/canon_d.mp3" type="audio/mp3">
+</audio>
+
+<br><br><br><br>
+<p class="title">Meet Our Avatar🫧</p>
+<img src="resource/image/group.jpg" alt="OUR TEAM" class="center">
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email: ouiouicafe.kl@gmail.com</p>
+            <p>Phone: +6012345678</p>
+            <p>Address: Oui Oui Cafe, Jalan Ampang Hilir, Taman U Thant, 55000 Kuala Lumpur, Malaysia</p>
+        </div>
+
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/profile.php?id=61561394132460"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://x.com/nurfadhilatul5"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/ouioui.kl?igsh=MTJoY2N5Y21tZG1iZw%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@ouioui.cafe?_t=8nUD7LErmYz&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-content">
+            <h3>Opening Hours</h3>
+            <center><p style="text-align: justify;">Monday: 9AM to 6PM<br>
+		       Tuesday: 9AM to 6PM<br>
+		       Wednesday: Closed<br>
+		       Thursday: 9AM to 6PM<br>
+	               Friday: 9AM to 6PM<br>
+		       Saturday: 12PM to 9PM<br>
+		       Sunday: 12PM to 9PM</p></center>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 OUI OUI Cafe. All Rights Reserved.</p>
+        <div id="last-updated"></div> 
+    </div>
+</footer>
+
+<script>
+    // JavaScript to set the current date and time
+    document.getElementById("last-updated").innerText = "Last Updated: " + new Date().toLocaleString();
+</script>
+
+</body>
+</html>

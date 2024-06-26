@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JOIN US</title>
+<link rel="stylesheet" type="text/css" href="resource/css/style.css">
+<script src="http://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('resource/image/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 60rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-intro > * + * {
+  margin-top: 1rem;
+}
+
+.contact-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.contact-description {
+  color: rgb(107 114 128);
+  text-align: center;
+}
+
+.form-group-container {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-input,
+.form-textarea {
+  padding: 0.5rem;
+  border: 2px solid #e5e7eb;
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #333;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #999;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.form-textarea {
+  min-height: 110px;
+}
+
+.form-submit {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: black;
+  color: #fff;
+  padding: 13px 5px;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #000000;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.responsive {
+  border: 1px solid #ccc;
+}
+
+div.responsive:hover {
+  border: 1px solid #777;
+}
+
+div.responsive img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.logo-container {
+  max-width: 200px;
+}
+
+.logo-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<hr>
+<nav>
+<div class="topnav">
+<img src="resource/image/logo1.jpg" alt="logo" width="150" height="150">
+  <a href="index.html"> HOME </a>
+  <a href="about_us.html"> ABOUT US </a>
+  <a href="location.html"> LOCATION</a>
+  <div class="dropdown">
+    <button class="dropbtn">FOODS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="pastry.html">Pastries</a>
+      <a href="cakes.html">Cakes</a>
+      <a href="softserve.html">Soft Serve</a> 
+      <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+      <div class="dropdown">
+        <button class="dropbtn">DRINKS 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="coffee.html">Coffee</a>
+          <a href="tea.html">Tea</a>
+          <a href="chocolate.html">Chocolate</a>
+        </div>
+     </div>
+  <a href="rewards.html"> REWARDS </a>
+  <a href="merchandise.html"> MERCHANDISE </a>
+  <a href="private_event.html"> PRIVATE EVENT</a>
+  <a href="faq.html"> FAQ </a>
+  <a href="join_us.html"> JOIN US </a>
+</div>
+</nav>
+</header>
+<div class="content">
+    <p class="title">Join us!</p>
+          </div>
+    </div>
+<br>
+
+<section class="contact-section">
+  <div>
+   <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <div class="contact-intro">
+      <center><h2 class="contact-title"> We welcome you to be a part of us</h2><br>
+      <p class="contact-description">
+        Fill out the form below and we'll get back to you as soon as possible. <br>
+        Note: You can also use this form to send your feedback.
+      </p></center>
+    </div>
+
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+
+      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+      <input type="hidden" name="from_name" value="My Website" />
+      <!-- More customization options available in the docs: https://docs.web3forms.com -->
+      <input type="hidden" name="access_key"value="12ef8ef9-7d70-4f07-a6bb-9d294f274d84">
+
+      <div class="form-group-container">
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+        </div>
+        <div class="form-group">
+          <label for="phone" class="form-label">Phone</label>
+          <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+        </div>
+      </div>
+      <button class="form-submit" type="submit">Send Message</button>
+    </form>
+  </div>
+  
+  <div class="logo-container">
+    <img src="resource/image/logo.jpg" alt="Cafe Logo" style="width:300px">
+  </div>
+</section>
+
+<br><br><br><br>
+  
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email: ouiouicafe.kl@gmail.com</p>
+            <p>Phone: +6012345678</p>
+            <p>Address: Oui Oui Cafe, Jalan Ampang Hilir, Taman U Thant, 55000 Kuala Lumpur, Malaysia</p>
+        </div>
+
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/profile.php?id=61561394132460"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://x.com/nurfadhilatul5"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/ouioui.kl?igsh=MTJoY2N5Y21tZG1iZw%3D%3D&utm_source=qr" target="_blank""><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@ouioui.cafe?_t=8nUD7LErmYz&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-content">
+            <h3>Opening Hours</h3>
+            <center style="text-align: justify;"><p>Monday: 9AM to 6PM<br>
+		       Tuesday: 9AM to 6PM<br>
+		       Wednesday: Closed<br>
+		       Thursday: 9AM to 6PM<br>
+	               Friday: 9AM to 6PM<br>
+		       Saturday: 12PM to 9PM<br>
+		       Sunday: 12PM to 9PM</p></center>
+        </div>
+    </div>
+
+   <div class="footer-bottom">
+        <p>&copy; 2024 OUI OUI Cafe. All Rights Reserved.</p>
+        <div id="last-updated"></div> 
+    </div>
+</footer>
+
+<script>
+    // JavaScript to set the current date and time
+    document.getElementById("last-updated").innerText = "Last Updated: " + new Date().toLocaleString();
+</script>
+
+</body>
+</html>
